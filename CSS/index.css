@@ -1,0 +1,119 @@
+*{
+  margin: 0em;
+  padding: 0em;
+}
+.home1{
+    display: grid;
+    grid-template-rows: 10em 35em 45em 8em;
+  }
+body{
+  background-image: url(ground2.jpg);
+    background-size: cover;
+    font-size: 2em;
+}
+.A{
+  border: 1px solid;
+}
+#xx{
+  display: flex;
+  flex-direction: row;
+  list-style-type: none;
+  text-decoration-line: none;
+  justify-content: center;
+  }
+  .nav{
+    background-color: blueviolet;
+  }
+  #ba{
+    float: left;
+    border-radius: 50%;
+  }
+  #gifti{
+    margin-left: 10em;
+  }
+  .footer{
+    background-color: blueviolet;
+  }
+  #foot{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    list-style-type: none;
+    background-color: blueviolet;
+    height: 8em;
+    margin: 0em;
+    }
+    .med{display: flex;
+      flex-direction: row;
+      justify-content: flex-end;
+      }
+      #tel{
+        width: 2em;
+        }
+        a{
+          font-size: 3em;
+          border: 1.5px solid;
+          border-radius: 2em;
+          justify-content: space-evenly;
+          margin: 1em;
+          background-color: pink;
+          }
+        p{
+          font-size: 2em;
+        }
+        #imo{
+          float: right;
+          /* posiion: absolute; */
+          /* bottom: 15em; */
+          /* left: 130em; */
+          width: 30em;
+        }
+        #xy{
+          float: left;
+          font-size: 2em;
+        width: 55em;}
+        a:hover{
+          color:rgb(238, 185, 11);
+      }
+@media only screen and (max-width:780px){
+  a{
+    font-size: 1em;
+    margin: 5px;
+  }
+  #xx{
+    display: flex;
+    flex-direction: column;
+    list-style-type: none;
+    text-decoration-line: none;
+    justify-content: center;
+    }
+    #gifti{
+      clear:left;
+      font-size: 20px;
+      width: 20em;
+      margin-left: 0em;
+    }
+    h1{
+      font-size: 1em;
+    }
+    #ba{
+      width: 7em;
+    }
+    #xy{
+      font-size: 20px;
+      width:20em;
+    }
+    #imo{
+      width: 5em;
+      clear:both;
+    }
+    #footer{
+      margin: 0em;
+    }
+}
+@media only screen and (min-width:781p){
+a{
+  font-size: 2.5em;
+}
+
+}

@@ -1,0 +1,113 @@
+.nav{
+    background-color: blueviolet;
+}
+body{    
+              background-image:url(ground2.jpg) ;  
+              background-size: cover;
+              margin: 0em;
+             
+            
+        } 
+        h1{
+            font-family: cursive;
+            font-size: 1em;
+        }
+        .about{
+            display: grid;
+            grid-template-rows: 17em 65em 65em 17em;
+            grid-gap: 2em;
+          
+        }
+        .C{
+            border: 1px solid;
+        }
+        #xx{
+        display: flex;
+        flex-direction: row;  
+        list-style-type: none;
+       justify-content: center;
+     
+  }
+  #video{
+      position: absolute;
+      left: 100em;
+  }
+  a{
+    text-decoration-line: none;
+    border: 1px solid;
+    border-radius: 3em;
+    margin: 1.25em;
+    font-size: 5em;
+    background-color: pink;
+  }
+ 
+  .footer{
+    background-color: blueviolet;
+  }
+  #foot{
+      display: flex;
+      flex-direction: row;
+      list-style-type: none;
+      justify-content: center;
+  }
+  .med{display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+  }
+  #tel{
+      width: 2em;
+  }
+  p{font-weight: bold;
+      font-size: 2em;
+      font-family: cursive;
+  }
+  img{
+      width: 45em;
+  }
+a:visited{
+            background-color: blck;
+}
+a:hover{
+    color:rgb(238, 185, 11);
+}
+@media only screen and (max-width:780px){
+ 
+    .about{
+        display: grid;
+        grid-template-rows: 17em 45em 70em 5em;
+        width: 10em
+    }
+    .C{
+        width: 30em;
+    }
+    body{
+        width: 20px;
+    }
+    
+    #xx{
+        display: flex;
+        flex-direction: column;
+        width: 13em;
+    }
+    h1{
+        font-size: 10px;
+    }
+    p{
+        font-weight: lighter;
+        font-size: 20px;
+        font-family: serif;
+        width: 11em;
+        margin: 10px;
+        text-align:start;
+    }
+    img{
+        width: 9em;
+    }
+    a{
+        font-size: 1em;
+        margin: 10px;
+    }
+    ul{
+        list-style-type: none;
+    }
+}

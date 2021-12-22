@@ -1,0 +1,167 @@
+@media screen and (min-width:681px){
+nav{
+    background-color: blueviolet;
+    height: 15em;
+}
+body{    
+          background-image:url(ground2.jpg) ;  
+          background-size: cover;
+          opacity: 9;       
+          font-family: cursive; 
+       font-weight:lighter;
+    } 
+    .Plans{
+        display: grid;
+        grid-template-rows: 17em  120em 17em;
+        grid-gap: 5em;
+    }
+    .E{
+        border: 1px solid;
+    }
+    #xx{
+display: flex;
+flex-direction: row;  
+list-style-type: none;
+justify-content: center;
+margin: 2em;
+}
+a{
+text-decoration-line: none;
+border: 1px solid;
+border-radius: 3em;
+margin: 1.25em;
+font-size: 5em;
+background-color: pink;
+
+}
+#foot{
+display: flex;
+flex-direction: row;
+list-style-type: none;
+justify-content: center;
+}
+.footer{
+background-color: blueviolet;}
+h1,p{
+font-size: 4em;
+}  
+p{
+width:35em;
+float: left;
+}
+img{
+float: right;
+}
+.med{display: flex;
+flex-direction: row;
+justify-content: flex-end;
+ 
+}
+#tel{
+  width: 2em;
+}
+a:hover{
+    color:rgb(238, 185, 11);
+    }
+}
+@media screen and (min-width:360px) and (max-width:680px){
+    nav{
+        background-color: blueviolet;
+        height: 15em;
+    }
+    body{    
+              background-image:url(ground2.jpg) ;  
+              background-size: cover;
+              opacity: 9;       
+              font-family: cursive; 
+           font-weight:lighter;
+        } 
+        .Plans{
+            display: grid;
+            grid-template-rows: 17em  120em 17em;
+            grid-gap: 5em;
+        }
+        .E{
+            border: 1px solid;
+        }
+        #xx{
+    display: flex;
+    flex-direction: row;  
+    list-style-type: none;
+    justify-content: center;
+    margin: 2em;
+    }
+    a{
+    text-decoration-line: none;
+    border: 1px solid;
+    border-radius: 3em;
+    margin: 1.25em;
+    font-size: 5em;
+    background-color: pink;
+    
+    }
+    #foot{
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    justify-content: center;
+    }
+    .footer{
+    background-color: blueviolet;}
+    h1,p{
+    font-size: 4em;
+    }  
+    p{
+    width:35em;
+    float: left;
+    }
+    img{
+    float: right;
+    }
+    .med{display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+     
+    }
+    #tel{
+      width: 2em;
+    }
+    a:hover{
+            color: pink;
+        }
+    }
+@media only screen and (max-width:780px){
+    body{margin: 0em;
+       
+    }
+    .Plans{
+        display: grid;
+        grid-template-rows: 19em  120em 17em;
+        grid-gap: 5em;
+    }
+    #xx{
+        display: flex;
+        flex-direction: column;  
+        list-style-type: none;
+        justify-content: center;
+        margin: 0em;
+        }
+    a{
+        font-size:1em;
+    }
+    p{
+        font-size: 1em;
+        width: 20em;
+    }
+    img{
+        width: 15em;
+        clear: right;
+    }
+}
+@media only screen and (min-width:781){
+    p{
+        font-size:2;
+        width: 45em;
+    }
+}
+
